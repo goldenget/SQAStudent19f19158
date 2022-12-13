@@ -1,1 +1,44 @@
+print ("--Welcome to the sales program--")
+
+ar1 = [order_id,item]
+ar2 = [order_cost,quan]
+ar1[0] = order_id 
+
+ar1[0] = input("what is the order id ? ")
+ar1[1] = input("what item is it ? ")
+ar2[0]  = double(input ("what is the cost? "))
+ar2[1] = double((input ("what is the quntainty of the order? "))
+
+ch = int(input("please select the choices "))
+print ("1.add tax to the item")
+print ("2.show the final recite ")
+print ("3.give a discont")
+
+if (ch == 1)
+{
+    with_qan = ar2[0] * ar2[1]
+    final_cost = with_qan * 0.05  
+    print("the tax is added")
+}
+
+elif (ch == 2)
+{
+    print ("item id::" + ar1[0] )
+    print ("item name:: " + ar1[1]  )
+    print ("item quntainty:: " + ar2[1] )
+    print("the price after VAT:: "+ final_cost )
+
+elif (ch == 3)
+{
+    dis = double(input("how much is the discont"))
+    after_dis = final_cost - (final_cost * dis / 100)
+    print ("the cost after the discoun:: " + after_dis)
+}
+
+else {  
+    
+    print("non-valid data  ")
+    
+    
+   }
 
