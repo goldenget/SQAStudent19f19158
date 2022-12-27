@@ -1,4 +1,9 @@
 print ("--Welcome to the sales program--")
+{
+
+
+
+
 
 ar1 = [order_id,item]
 ar2 = [order_cost,quan]
@@ -41,4 +46,6 @@ else {
     
     
    }
+   p= input("if you want to repet click y)
+   }while(p== "y")
 
